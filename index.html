@@ -468,6 +468,18 @@
             </li>
           </ul>
         </div>
+        <div class="mailing">
+          <h2 class="title">Підпишіться на розсилку</h2>
+          <form>
+            <input
+              type="email"
+              class="mailing-input"
+              name="mailing-mail"
+              placeholder="E-mail"
+            />
+            <button class="mailing-button">Підписатися</button>
+          </form>
+        </div>
       </div>
     </footer>
     <!-- Модалка -->
@@ -478,6 +490,48 @@
             <use href="./images/sprite.svg#icon-dagger"></use>
           </svg>
         </button>
+        <b class="title">Залиште свої дані, ми вам передзвонимо</b>
+        <form class="form">
+          <label class="form-field">
+            <span class="form-label">Ім'я</span>
+            <input type="text" class="form-input" name="name" />
+            <span class="icon"></span>
+          </label>
+          <label class="form-field">
+            <span class="form-label">Телефон</span>
+            <input type="tel" class="form-input" name="tel" />
+            <span class="icon"></span>
+          </label>
+          <label class="form-field">
+            <span class="form-label">Пошта</span>
+            <input type="email" class="form-input" name="mail" />
+            <span class="icon"></span>
+          </label>
+          <label class="form-field">
+            <span class="form-label">Коментар</span>
+            <textarea
+              class="form-textarea"
+              name="comment"
+              cols="30"
+              rows="10"
+              placeholder="Введіть текст"
+            ></textarea>
+          </label>
+          <label class="form-checkbox">
+            <input
+              type="checkbox"
+              class="form-confirmation"
+              name="confirmation"
+            />
+            <p class="confirmation-text">
+              Погоджуюся з розсилкою та приймаю
+              <a href="" target="_blank">Умови договору</a>
+            </p>
+          </label>
+          <div class="form-button">
+            <button type="submit" class="button">Відправити</button>
+          </div>
+        </form>
       </div>
     </div>
     <script src="./js/modal.js"></script>
