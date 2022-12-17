@@ -477,7 +477,9 @@
               name="mailing-mail"
               placeholder="E-mail"
             />
-            <button class="mailing-button">Підписатися</button>
+            <button class="mailing-button">
+              <span class="text">Підписатися</span>
+            </button>
           </form>
         </div>
       </div>
@@ -495,17 +497,23 @@
           <label class="form-field">
             <span class="form-label">Ім'я</span>
             <input type="text" class="form-input" name="name" />
-            <span class="icon"></span>
+            <svg class="form-icon" height="18" width="18">
+              <use href="./images/sprite.svg#icon-person"></use>
+            </svg>
           </label>
           <label class="form-field">
             <span class="form-label">Телефон</span>
             <input type="tel" class="form-input" name="tel" />
-            <span class="icon"></span>
+            <svg class="form-icon" height="18" width="18">
+              <use href="./images/sprite.svg#icon-phone"></use>
+            </svg>
           </label>
           <label class="form-field">
             <span class="form-label">Пошта</span>
             <input type="email" class="form-input" name="mail" />
-            <span class="icon"></span>
+            <svg class="form-icon" height="18" width="18">
+              <use href="./images/sprite.svg#icon-email"></use>
+            </svg>
           </label>
           <label class="form-field">
             <span class="form-label">Коментар</span>
@@ -523,6 +531,7 @@
               class="form-confirmation"
               name="confirmation"
             />
+            <span class="confirmation-icon"></span>
             <p class="confirmation-text">
               Погоджуюся з розсилкою та приймаю
               <a href="" target="_blank">Умови договору</a>
